@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiFillCar } from 'react-icons/ai'
+import Search from './Search'
 
 export default function Navbar() {
   return (
@@ -8,7 +9,9 @@ export default function Navbar() {
             <AiFillCar size={34}/>
             <div>Sell - Buy Cars</div>
         </div>
-        <div>Search</div>
+        <div>
+          <Search />
+        </div>
         <div>Login</div>
     </header>
   )
