@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "car-auction-web-app": "file:",
+    "flowbite-react": "^0.10.2",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-countdown": "^2.3.6",
