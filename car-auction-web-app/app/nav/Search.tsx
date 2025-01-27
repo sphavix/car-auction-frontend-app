@@ -1,7 +1,10 @@
+'use client'
+
 import React from 'react'
 import { FaSearch } from 'react-icons/fa'
 
 export default function Search() {
+
   return (
     <div className='flex w-[50%] items-center border-2 rounded-full py-2 shadow-sm'>
         <input type="text" 
@@ -17,7 +20,7 @@ export default function Search() {
             />
 
         <button>
-            <FaSearch size={34} className='bg-blue-400 text-white rounded-full p-2 cursor-pointer mx-2'/>
+            <FaSearch size={34} className='bg-blue-500 text-white rounded-full p-3 cursor-pointer mx-2'/>
         </button>
     </div>
   )
